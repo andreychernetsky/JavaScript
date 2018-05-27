@@ -126,10 +126,10 @@ block();
 
 ----------------------
 
-(function()){
+(function(){
   var x1,x2
   alert("hello");
-}());
+})();
 ------------------
 function myFoo(x,y){
   alert(x+y);
@@ -164,3 +164,19 @@ function myFoo(){
 }
 var result = myFoo(1,3,2,20,80);
 alert(result);
+-------------------------------
+function countNumbers (str = '') {
+  function stringOrNot(date){
+    return !isNaN(data);
+  }
+  if(stringOrNot(str)) return 'this is no string';
+  let lesnStr = str.length, sum = 0;
+
+  for(let i = 0; i < lenStr; i++) {
+    sum+=stringOrNot(+str[i]);
+  }
+  return sum;
+}
+console.log(countNumbers (555));
+console.log(countNumbers ('dgsg4g3gd5g5g'));
+console.log(countNumbers ('dgsg4g3gd5g5g dssjh445jh4j5j'));
